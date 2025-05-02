@@ -1,0 +1,39 @@
+﻿
+
+Revit 2026 API
+
+# FabricationServiceAbbreviation Property  
+  
+---  
+  
+The short name of service. 
+
+**Namespace:** [Autodesk.Revit.DB](87546ba7-461b-c646-cbb1-2cb8f5bff8b2.md)**Assembly:** RevitAPI (in RevitAPI.dll) Version: 26.0.4.0 (26.0.4.0)
+
+```csharp
+public string Abbreviation { get; }
+```
+```vb
+Public ReadOnly Property Abbreviation As String
+	Get
+```
+```cpp
+public:
+property String^ Abbreviation {
+	String^ get ();
+}
+```
+```fsharp
+member Abbreviation : string with get
+```
+
+
+#### Property Value
+
+String
+
+#### Reference
+
+[FabricationService Class](e29ecbb2-7de0-c341-0db0-9f77bd0f5543.md)
+
+[Autodesk.Revit.DB Namespace](87546ba7-461b-c646-cbb1-2cb8f5bff8b2.md)

@@ -1,0 +1,39 @@
+﻿
+
+Revit 2026 API
+
+# BuiltInFailuresTagFailuresElementCategoryChangeInvalidatesTagUpgrade Property  
+  
+---  
+  
+During upgrade, Revit discovered that the highlighted elements were marked with tags of the wrong category. These tags were deleted. 
+
+**Namespace:** [Autodesk.Revit.DB](87546ba7-461b-c646-cbb1-2cb8f5bff8b2.md)**Assembly:** RevitAPI (in RevitAPI.dll) Version: 26.0.4.0 (26.0.4.0)
+
+```csharp
+public static FailureDefinitionId ElementCategoryChangeInvalidatesTagUpgrade { get; }
+```
+```vb
+Public Shared ReadOnly Property ElementCategoryChangeInvalidatesTagUpgrade As FailureDefinitionId
+	Get
+```
+```cpp
+public:
+static property FailureDefinitionId^ ElementCategoryChangeInvalidatesTagUpgrade {
+	FailureDefinitionId^ get ();
+}
+```
+```fsharp
+static member ElementCategoryChangeInvalidatesTagUpgrade : FailureDefinitionId with get
+```
+
+
+#### Property Value
+
+[FailureDefinitionId](b6ada360-a6fe-ebb6-b095-d74b37ade9bf.md)
+
+#### Reference
+
+[BuiltInFailuresTagFailures Class](466bf4b7-571e-a718-4900-965e2569d60b.md)
+
+[Autodesk.Revit.DB Namespace](87546ba7-461b-c646-cbb1-2cb8f5bff8b2.md)

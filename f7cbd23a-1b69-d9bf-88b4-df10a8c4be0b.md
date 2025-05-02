@@ -1,0 +1,48 @@
+﻿
+
+Revit 2026 API
+
+# MechanicalUtils Class  
+  
+---  
+  
+General utility methods in the Autodesk Revit MEP product. 
+
+SystemObject Autodesk.Revit.DB.MechanicalMechanicalUtils
+
+**Namespace:** [Autodesk.Revit.DB.Mechanical](0eafd899-5912-56fd-94b1-d286156e26fc.md)**Assembly:** RevitAPI (in RevitAPI.dll) Version: 26.0.4.0 (26.0.4.0)
+
+```csharp
+public static class MechanicalUtils
+```
+```vb
+Public NotInheritable Class MechanicalUtils
+```
+```cpp
+public ref class MechanicalUtils abstract sealed
+```
+```fsharp
+[<AbstractClassAttribute>]
+[<SealedAttribute>]
+type MechanicalUtils = class end
+```
+
+
+The MechanicalUtils type exposes the following members.
+
+|  | Name | Description |
+| --- | --- | --- |
+|  | [BreakCurve](baeec9be-b43d-d378-31b9-453432d44bfb.md) | Breaks the duct curve into two parts at the given position. |
+|  | [ConnectAirTerminalOnDuct](809187c2-49fe-38b1-59ee-9adf2a9765e4.md) | Connects an air terminal to a duct directly (without the need for a tee or takeoff). |
+|  | [ConnectDuctPlaceholdersAtCross(Document, ElementId, ElementId)](40648bfb-d174-a451-71fd-9c4213532efb.md) | Connects a pair of placeholders that can intersect in a Cross connection. |
+|  | [ConnectDuctPlaceholdersAtCross(Document, ElementId, ElementId, ElementId)](478e5140-7b77-a70f-ed92-6dc90d7e1979.md) | Connects a trio of placeholders that can intersect in a Cross connection. |
+|  | [ConnectDuctPlaceholdersAtCross(Document, Connector, Connector, Connector, Connector)](c97c477a-5d60-4a9d-e7d5-5987b5d4ccbc.md) | Connects a group of placeholders that can intersect in a Cross connection. |
+|  | [ConnectDuctPlaceholdersAtElbow(Document, Connector, Connector)](e588f46f-f3bd-ce92-5f0e-297c2f30ecf1.md) | Connects a pair of placeholders that can intersect in an Elbow connection. |
+|  | [ConnectDuctPlaceholdersAtElbow(Document, ElementId, ElementId)](9cbf2d10-9495-abba-2c6f-d7fa44eb4756.md) | Connects a pair of placeholders that can intersect in an Elbow connection. |
+|  | [ConnectDuctPlaceholdersAtTee(Document, ElementId, ElementId)](9e85e3aa-6f29-54fb-882a-cca23fd72751.md) | Connects a pair of placeholders that can intersect in a Tee connection. |
+|  | [ConnectDuctPlaceholdersAtTee(Document, Connector, Connector, Connector)](2743d178-a9ab-3c11-6ccc-78ccbc5f7f13.md) | Connects a trio of placeholders that can intersect in a Tee connection. |
+|  | [ConvertDuctPlaceholders](8305d265-b824-98d7-2084-8a8eb0c49208.md) |  |
+  
+#### Reference
+
+[Autodesk.Revit.DB.Mechanical Namespace](0eafd899-5912-56fd-94b1-d286156e26fc.md)

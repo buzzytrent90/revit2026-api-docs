@@ -1,0 +1,41 @@
+﻿
+
+Revit 2026 API
+
+# PaperSourceSetGetEnumerator Method  
+  
+---  
+  
+Retrieve a forward moving iterator to the set.
+
+**Namespace:** [Autodesk.Revit.DB](87546ba7-461b-c646-cbb1-2cb8f5bff8b2.md)**Assembly:** RevitAPI (in RevitAPI.dll) Version: 26.0.4.0 (26.0.4.0)
+
+```csharp
+public virtual IEnumerator GetEnumerator()
+```
+```vb
+Public Overridable Function GetEnumerator As IEnumerator
+```
+```cpp
+public:
+virtual IEnumerator^ GetEnumerator()
+```
+```fsharp
+abstract GetEnumerator : unit -> IEnumerator 
+override GetEnumerator : unit -> IEnumerator 
+```
+
+
+#### Return Value
+
+IEnumeratorReturns a forward moving iterator to the set.
+
+#### Implements
+
+IEnumerableGetEnumerator
+
+#### Reference
+
+[PaperSourceSet Class](d8c1d4df-2afd-bf11-c8ba-729475c6324e.md)
+
+[Autodesk.Revit.DB Namespace](87546ba7-461b-c646-cbb1-2cb8f5bff8b2.md)

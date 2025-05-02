@@ -1,0 +1,39 @@
+﻿
+
+Revit 2026 API
+
+# NumberingSchemaTypesStructuralNumberingSchemasReinforcementFabric Property  
+  
+---  
+  
+Built-in schema used for numbering fabric reinforcement elements 
+
+**Namespace:** [Autodesk.Revit.DB](87546ba7-461b-c646-cbb1-2cb8f5bff8b2.md)**Assembly:** RevitAPI (in RevitAPI.dll) Version: 26.0.4.0 (26.0.4.0)
+
+```csharp
+public static NumberingSchemaType ReinforcementFabric { get; }
+```
+```vb
+Public Shared ReadOnly Property ReinforcementFabric As NumberingSchemaType
+	Get
+```
+```cpp
+public:
+static property NumberingSchemaType^ ReinforcementFabric {
+	NumberingSchemaType^ get ();
+}
+```
+```fsharp
+static member ReinforcementFabric : NumberingSchemaType with get
+```
+
+
+#### Property Value
+
+[NumberingSchemaType](da916345-8494-ff19-96d0-1a2d0377a02e.md)
+
+#### Reference
+
+[NumberingSchemaTypesStructuralNumberingSchemas Class](f7e84519-92bf-bad3-df1f-bd05967eaeb0.md)
+
+[Autodesk.Revit.DB Namespace](87546ba7-461b-c646-cbb1-2cb8f5bff8b2.md)

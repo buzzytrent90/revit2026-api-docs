@@ -1,0 +1,55 @@
+﻿
+
+Revit 2026 API
+
+# FamilyLoadingIntoDocumentEventArgs Class  
+  
+---  
+  
+The event arguments used by the FamilyLoadingInto event. 
+
+SystemObject SystemEventArgs [Autodesk.Revit.DB.EventsRevitAPIEventArgs](7c98499c-e345-cfda-ef89-48eccd3c9992.md) [Autodesk.Revit.DB.EventsRevitAPIPreEventArgs](14097470-c9d9-0143-dc1b-b93a60a460e6.md) [Autodesk.Revit.DB.EventsRevitAPIPreDocEventArgs](ef0073c4-f86b-64b9-12f2-268f4e1b8bbe.md) Autodesk.Revit.DB.EventsFamilyLoadingIntoDocumentEventArgs
+
+**Namespace:** [Autodesk.Revit.DB.Events](b86712d6-83b3-e044-8016-f9881ecd3800.md)**Assembly:** RevitAPI (in RevitAPI.dll) Version: 26.0.4.0 (26.0.4.0)
+
+```csharp
+public class FamilyLoadingIntoDocumentEventArgs : RevitAPIPreDocEventArgs
+```
+```vb
+Public Class FamilyLoadingIntoDocumentEventArgs
+	Inherits RevitAPIPreDocEventArgs
+```
+```cpp
+public ref class FamilyLoadingIntoDocumentEventArgs : public RevitAPIPreDocEventArgs
+```
+```fsharp
+type FamilyLoadingIntoDocumentEventArgs = 
+    class
+        inherit RevitAPIPreDocEventArgs
+    end
+```
+
+
+The FamilyLoadingIntoDocumentEventArgs type exposes the following members.
+
+|  | Name | Description |
+| --- | --- | --- |
+|  | [Cancellable](a393138a-34b5-1724-aa69-92cef651482b.md) | Indicates whether an event may be cancelled by an event delegate. (Inherited from [RevitAPIEventArgs](7c98499c-e345-cfda-ef89-48eccd3c9992.md)) |
+|  | [Document](ccbc5e47-3964-cf1e-4cac-fa023d3b8e63.md) | The document associated with the event. (Inherited from [RevitAPIPreDocEventArgs](ef0073c4-f86b-64b9-12f2-268f4e1b8bbe.md)) |
+|  | [FamilyName](ec272d75-d6d5-db03-57bd-12415ca6abf5.md) | The file name of the family that is being loaded into the document. |
+|  | [FamilyPath](9f59f558-2917-1341-3101-efd14b77982c.md) | The file path of the family that is being loaded into the document. |
+|  | [IsValidObject](35c0066a-b3dc-9d37-c79e-c29f90713b2d.md) | Specifies whether the .NET object represents a valid Revit entity. (Inherited from [RevitAPIEventArgs](7c98499c-e345-cfda-ef89-48eccd3c9992.md)) |
+  
+|  | Name | Description |
+| --- | --- | --- |
+|  | [Cancel](88fa78de-0fff-a85f-0de3-b631673e9e51.md) | When the event is cancellable, may call the Cancel() method to cancel it. (Inherited from [RevitAPIPreEventArgs](14097470-c9d9-0143-dc1b-b93a60a460e6.md)) |
+|  | [Dispose](697794d0-db4b-41ee-90a3-388296ffeefb.md) | (Inherited from [RevitAPIEventArgs](7c98499c-e345-cfda-ef89-48eccd3c9992.md)) |
+|  | Equals | Determines whether the specified object is equal to the current object.(Inherited from Object) |
+|  | GetHashCode | Serves as the default hash function.(Inherited from Object) |
+|  | GetType | Gets the Type of the current instance.(Inherited from Object) |
+|  | [IsCancelled](5627aeaa-9d9c-dcbe-b34f-db40f1c025be.md) | Indicates whether the event is being cancelled. (Inherited from [RevitAPIEventArgs](7c98499c-e345-cfda-ef89-48eccd3c9992.md)) |
+|  | ToString | Returns a string that represents the current object.(Inherited from Object) |
+  
+#### Reference
+
+[Autodesk.Revit.DB.Events Namespace](b86712d6-83b3-e044-8016-f9881ecd3800.md)

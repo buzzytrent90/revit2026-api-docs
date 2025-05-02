@@ -1,0 +1,45 @@
+﻿
+
+Revit 2026 API
+
+# DocumentGetUnusedElements Method  
+  
+---  
+**Namespace:** [Autodesk.Revit.DB](87546ba7-461b-c646-cbb1-2cb8f5bff8b2.md)**Assembly:** RevitAPI (in RevitAPI.dll) Version: 26.0.4.0 (26.0.4.0)
+
+```csharp
+public ISet<ElementId> GetUnusedElements(
+	ISet<ElementId> categories
+)
+```
+```vb
+Public Function GetUnusedElements ( 
+	categories As ISet(Of ElementId)
+) As ISet(Of ElementId)
+```
+```cpp
+public:
+ISet<ElementId^>^ GetUnusedElements(
+	ISet<ElementId^>^ categories
+)
+```
+```fsharp
+member GetUnusedElements : 
+        categories : ISet<ElementId> -> ISet<ElementId> 
+```
+
+
+#### Parameters
+
+categories ISet[ElementId](44f3f7b1-3229-3404-93c9-dc5e70337dd6.md)
+    
+
+#### Return Value
+
+ISet[ElementId](44f3f7b1-3229-3404-93c9-dc5e70337dd6.md)
+
+#### Reference
+
+[Document Class](db03274b-a107-aa32-9034-f3e0df4bb1ec.md)
+
+[Autodesk.Revit.DB Namespace](87546ba7-461b-c646-cbb1-2cb8f5bff8b2.md)

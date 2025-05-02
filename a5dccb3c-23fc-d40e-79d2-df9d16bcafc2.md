@@ -1,0 +1,37 @@
+﻿
+
+Revit 2026 API
+
+# AnalysisDisplayVectorSettingsDispose Method  
+  
+---  
+  
+Releases all resources used by the [AnalysisDisplayVectorSettings](2e74462f-4216-f6eb-d560-87a1b103e87e.md)
+
+**Namespace:** [Autodesk.Revit.DB.Analysis](958e2e12-587d-f188-5d7b-f13d7dbfdf48.md)**Assembly:** RevitAPI (in RevitAPI.dll) Version: 26.0.4.0 (26.0.4.0)
+
+```csharp
+public void Dispose()
+```
+```vb
+Public Sub Dispose
+```
+```cpp
+public:
+virtual void Dispose() sealed
+```
+```fsharp
+abstract Dispose : unit -> unit 
+override Dispose : unit -> unit 
+```
+
+
+#### Implements
+
+IDisposableDispose
+
+#### Reference
+
+[AnalysisDisplayVectorSettings Class](2e74462f-4216-f6eb-d560-87a1b103e87e.md)
+
+[Autodesk.Revit.DB.Analysis Namespace](958e2e12-587d-f188-5d7b-f13d7dbfdf48.md)

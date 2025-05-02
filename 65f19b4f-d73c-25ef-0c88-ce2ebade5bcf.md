@@ -1,0 +1,39 @@
+﻿
+
+Revit 2026 API
+
+# PlaneOrigin Property  
+  
+---  
+  
+Plane origin. 
+
+**Namespace:** [Autodesk.Revit.DB](87546ba7-461b-c646-cbb1-2cb8f5bff8b2.md)**Assembly:** RevitAPI (in RevitAPI.dll) Version: 26.0.4.0 (26.0.4.0)
+
+```csharp
+public XYZ Origin { get; }
+```
+```vb
+Public ReadOnly Property Origin As XYZ
+	Get
+```
+```cpp
+public:
+property XYZ^ Origin {
+	XYZ^ get ();
+}
+```
+```fsharp
+member Origin : XYZ with get
+```
+
+
+#### Property Value
+
+[XYZ](c2fd995c-95c0-58fb-f5de-f3246cbc5600.md)
+
+#### Reference
+
+[Plane Class](6a6ee978-f114-558d-3c69-00d289aa855f.md)
+
+[Autodesk.Revit.DB Namespace](87546ba7-461b-c646-cbb1-2cb8f5bff8b2.md)

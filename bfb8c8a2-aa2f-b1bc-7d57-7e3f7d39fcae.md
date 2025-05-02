@@ -1,0 +1,42 @@
+﻿
+
+Revit 2026 API
+
+# FilteredElementCollectorToElementIds Method  
+  
+---  
+  
+Returns the complete set of element ids that pass the filter(s). 
+
+**Namespace:** [Autodesk.Revit.DB](87546ba7-461b-c646-cbb1-2cb8f5bff8b2.md)**Assembly:** RevitAPI (in RevitAPI.dll) Version: 26.0.4.0 (26.0.4.0)
+
+```csharp
+public ICollection<ElementId> ToElementIds()
+```
+```vb
+Public Function ToElementIds As ICollection(Of ElementId)
+```
+```cpp
+public:
+ICollection<ElementId^>^ ToElementIds()
+```
+```fsharp
+member ToElementIds : unit -> ICollection<ElementId> 
+```
+
+
+#### Return Value
+
+ICollection[ElementId](44f3f7b1-3229-3404-93c9-dc5e70337dd6.md) The complete set of element ids. 
+
+| Exception | Condition |
+| --- | --- |
+| [InvalidOperationException](9e715f03-3884-e539-4dd6-8d7545733adc.md) | The collector does not have a filter applied. Extraction or iteration of elements is not permitted without a filter. |
+  
+This will reset the collector to the beginning and extract all elements that pass the applied filter(s). If you have an active iterator to this same collector it will be stopped by this call. 
+
+#### Reference
+
+[FilteredElementCollector Class](263cf06b-98be-6f91-c4da-fb47d01688f3.md)
+
+[Autodesk.Revit.DB Namespace](87546ba7-461b-c646-cbb1-2cb8f5bff8b2.md)

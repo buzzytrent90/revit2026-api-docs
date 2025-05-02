@@ -1,0 +1,70 @@
+﻿
+
+Revit 2026 API
+
+# FamilyInstanceCreationData(XYZ, FamilySymbol, Element, Level, StructuralType) Constructor  
+  
+---  
+  
+Initializes a new instance of the [FamilyInstanceCreationData](bcd1f300-616b-5a36-9909-5273f99d78c8.md) class
+
+**Namespace:** [Autodesk.Revit.Creation](ded320da-058a-4edd-0418-0582389559a7.md)**Assembly:** RevitAPI (in RevitAPI.dll) Version: 26.0.4.0 (26.0.4.0)
+
+```csharp
+public FamilyInstanceCreationData(
+	XYZ location,
+	FamilySymbol symbol,
+	Element host,
+	Level level,
+	StructuralType structuralType
+)
+```
+```vb
+Public Sub New ( 
+	location As XYZ,
+	symbol As FamilySymbol,
+	host As Element,
+	level As Level,
+	structuralType As StructuralType
+)
+```
+```cpp
+public:
+FamilyInstanceCreationData(
+	XYZ^ location, 
+	FamilySymbol^ symbol, 
+	Element^ host, 
+	Level^ level, 
+	StructuralType structuralType
+)
+```
+```fsharp
+new : 
+        location : XYZ * 
+        symbol : FamilySymbol * 
+        host : Element * 
+        level : Level * 
+        structuralType : StructuralType -> FamilyInstanceCreationData
+```
+
+
+#### Parameters
+
+location [XYZ](c2fd995c-95c0-58fb-f5de-f3246cbc5600.md)
+     The physical location where the instance is to be placed. 
+symbol [FamilySymbol](a1acaed0-6a62-4c1d-94f5-4e27ce0923d3.md)
+     A FamilySymbol object that represents the type of the instance that is to be inserted. 
+host [Element](eb16114f-69ea-f4de-0d0d-f7388b105a16.md)
+     The object into which the FamilyInstance is to be inserted, often known as the host. 
+level [Level](577e5d4e-a558-118c-9dea-3b810b061775.md)
+    A Level object that is used as the base level for the object.
+structuralType [StructuralType](0a0a3793-5fce-283d-4953-a137f5593db9.md)
+     If structural then specify the type of the component. 
+
+#### Reference
+
+[FamilyInstanceCreationData Class](bcd1f300-616b-5a36-9909-5273f99d78c8.md)
+
+[FamilyInstanceCreationData Overload](051ce723-e7ce-a5f6-67e9-63db3f399b9f.md)
+
+[Autodesk.Revit.Creation Namespace](ded320da-058a-4edd-0418-0582389559a7.md)

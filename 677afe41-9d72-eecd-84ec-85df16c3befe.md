@@ -1,0 +1,41 @@
+﻿
+
+Revit 2026 API
+
+# RoomVolume Property  
+  
+---  
+  
+Get the Volume of the Room.
+
+**Namespace:** [Autodesk.Revit.DB.Architecture](720f0c58-cb2b-4f13-374a-7348ed0a1cd3.md)**Assembly:** RevitAPI (in RevitAPI.dll) Version: 26.0.4.0 (26.0.4.0)
+
+```csharp
+public double Volume { get; }
+```
+```vb
+Public ReadOnly Property Volume As Double
+	Get
+```
+```cpp
+public:
+property double Volume {
+	double get ();
+}
+```
+```fsharp
+member Volume : float with get
+```
+
+
+#### Property Value
+
+Double
+
+This property is used to get the Volume of the Room. 
+
+#### Reference
+
+[Room Class](75c9d2c7-a402-ea8b-9e7c-f8bc3510bbd5.md)
+
+[Autodesk.Revit.DB.Architecture Namespace](720f0c58-cb2b-4f13-374a-7348ed0a1cd3.md)

@@ -1,0 +1,41 @@
+﻿
+
+Revit 2026 API
+
+# GlobalParametersManagerIsValidObject Property  
+  
+---  
+  
+Specifies whether the .NET object represents a valid Revit entity. 
+
+**Namespace:** [Autodesk.Revit.DB](87546ba7-461b-c646-cbb1-2cb8f5bff8b2.md)**Assembly:** RevitAPI (in RevitAPI.dll) Version: 26.0.4.0 (26.0.4.0)
+
+```csharp
+public bool IsValidObject { get; }
+```
+```vb
+Public ReadOnly Property IsValidObject As Boolean
+	Get
+```
+```cpp
+public:
+property bool IsValidObject {
+	bool get ();
+}
+```
+```fsharp
+member IsValidObject : bool with get
+```
+
+
+#### Return Value
+
+Boolean True if the API object holds a valid Revit native object, false otherwise. 
+
+If the corresponding Revit native object is destroyed, or creation of the corresponding object is undone, a managed API object containing it is no longer valid. API methods cannot be called on invalidated wrapper objects. 
+
+#### Reference
+
+[GlobalParametersManager Class](f3af05ec-1f0c-fe86-6708-0a211a40bcda.md)
+
+[Autodesk.Revit.DB Namespace](87546ba7-461b-c646-cbb1-2cb8f5bff8b2.md)

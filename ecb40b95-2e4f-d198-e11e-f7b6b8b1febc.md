@@ -1,0 +1,29 @@
+﻿
+
+Revit 2026 API
+
+# ParameterUtils Methods  
+  
+---  
+  
+The [ParameterUtils](df5da06e-35c6-e32e-53c0-9fd68d3ab142.md) type exposes the following members.
+
+|  | Name | Description |
+| --- | --- | --- |
+|  | [DownloadCompanyName](a7c212e1-43a1-8bc4-f9be-0dcbf56b27c5.md) | Downloads the name of the given parameter's owning account and records it in the given document. If the owning account's name is already recorded in the given document, this method returns the name without downloading it again. |
+|  | [DownloadParameter](6449c1fe-90af-e6d4-e852-91f6eeae5c97.md) | Create a shared parameter element in the given document according to a parameter definition downloaded from the Parameters Service. |
+|  | [DownloadParameterOptions](fd6683df-c93e-eabe-3f6c-dffe61b5cef9.md) | Retrieves settings associated with the given parameter from the Parameters Service. |
+|  | [GetAllBuiltInGroups](884d14d3-02e5-5631-adb3-79c612d04b5a.md) | Gets the identifiers of all built-in parameter groups. |
+|  | [GetAllBuiltInParameters](bbcac12c-c02a-3747-55d0-95bc3f6d2bb2.md) | Gets the identifiers of all built-in parameters. |
+|  | [GetBuiltInParameter](9b2b9b94-5220-0e9f-d259-c05faaf86625.md) | Gets the BuiltInParameter value corresponding to built-in parameter identified by the given ForgeTypeId. |
+|  | [GetBuiltInParameterGroupTypeId](9cea4e68-53ab-c371-f8b2-b205d75b4ec8.md) | The parameter group identifier corresponding to the given built-in parameter identifier. |
+|  | [GetParameterTypeId](7756d26f-c271-8259-b668-5e8eb888b29e.md) | Gets the ForgeTypeId identifying the built-in parameter corresponding to the given BuiltInParameter value. |
+|  | [IsBuiltInGroup](50a42579-6e5e-7f9d-30ff-fdf41036c8e7.md) | Checks whether a ForgeTypeId identifies a built-in parameter group. |
+|  | [IsBuiltInParameter(ElementId)](7df6bd75-52ac-3657-aef1-6d594809c6f9.md) | Checks whether an ElementId identifies a built-in parameter. |
+|  | [IsBuiltInParameter(ForgeTypeId)](dd94c332-1755-910b-d3db-65ad9d396ce1.md) | Checks whether a ForgeTypeId identifies a built-in parameter. |
+  
+#### Reference
+
+[ParameterUtils Class](df5da06e-35c6-e32e-53c0-9fd68d3ab142.md)
+
+[Autodesk.Revit.DB Namespace](87546ba7-461b-c646-cbb1-2cb8f5bff8b2.md)

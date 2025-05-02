@@ -1,0 +1,51 @@
+﻿
+
+Revit 2026 API
+
+# PrintParametersUserDefinedMarginX Property  
+  
+---  
+  
+**Note: This API is now obsolete.**
+
+The User defined X value of offset from left bottom corner. Unit is inch. 
+
+**Namespace:** [Autodesk.Revit.DB](87546ba7-461b-c646-cbb1-2cb8f5bff8b2.md)**Assembly:** RevitAPI (in RevitAPI.dll) Version: 26.0.4.0 (26.0.4.0)
+
+```csharp
+[ObsoleteAttribute("This property is obsolete. Use OriginOffsetX instead.")]
+public double UserDefinedMarginX { get; set; }
+```
+```vb
+<ObsoleteAttribute("This property is obsolete. Use OriginOffsetX instead.")>
+Public Property UserDefinedMarginX As Double
+	Get
+	Set
+```
+```cpp
+public:
+[ObsoleteAttribute(L"This property is obsolete. Use OriginOffsetX instead.")]
+property double UserDefinedMarginX {
+	double get ();
+	void set (double value);
+}
+```
+```fsharp
+[<ObsoleteAttribute("This property is obsolete. Use OriginOffsetX instead.")>]
+member UserDefinedMarginX : float with get, set
+```
+
+
+#### Property Value
+
+Double
+
+| Exception | Condition |
+| --- | --- |
+| [InvalidOperationException](9e715f03-3884-e539-4dd6-8d7545733adc.md) | Thrown if PaperPlacement is not Margins and MarginType is not User defined type. |
+  
+#### Reference
+
+[PrintParameters Class](59e6cfe9-b1e8-70c0-814b-ee69c8fca411.md)
+
+[Autodesk.Revit.DB Namespace](87546ba7-461b-c646-cbb1-2cb8f5bff8b2.md)

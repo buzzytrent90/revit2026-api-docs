@@ -1,0 +1,37 @@
+﻿
+
+Revit 2026 API
+
+# ConnectorSetForwardIterator Method  
+  
+---  
+  
+Retrieve a forward moving iterator to the set.
+
+**Namespace:** [Autodesk.Revit.DB](87546ba7-461b-c646-cbb1-2cb8f5bff8b2.md)**Assembly:** RevitAPI (in RevitAPI.dll) Version: 26.0.4.0 (26.0.4.0)
+
+```csharp
+public virtual ConnectorSetIterator ForwardIterator()
+```
+```vb
+Public Overridable Function ForwardIterator As ConnectorSetIterator
+```
+```cpp
+public:
+virtual ConnectorSetIterator^ ForwardIterator()
+```
+```fsharp
+abstract ForwardIterator : unit -> ConnectorSetIterator 
+override ForwardIterator : unit -> ConnectorSetIterator 
+```
+
+
+#### Return Value
+
+[ConnectorSetIterator](211f670f-72c3-6b6b-24dd-1a784f80a338.md)Returns a forward moving iterator to the set.
+
+#### Reference
+
+[ConnectorSet Class](a9821fc1-54cf-5f69-13a9-25d506ecb048.md)
+
+[Autodesk.Revit.DB Namespace](87546ba7-461b-c646-cbb1-2cb8f5bff8b2.md)

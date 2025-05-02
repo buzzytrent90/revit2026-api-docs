@@ -1,0 +1,41 @@
+﻿
+
+Revit 2026 API
+
+# StructuralSectionGeneralUFlangeToeOfFillet Property  
+  
+---  
+  
+Detailing distance from center of web to flange toe of fillet, in. (mm) 
+
+**Namespace:** [Autodesk.Revit.DB.Structure.StructuralSections](09862f38-63f6-a5f8-e560-ae775901bc92.md)**Assembly:** RevitAPI (in RevitAPI.dll) Version: 26.0.4.0 (26.0.4.0)
+
+```csharp
+public double FlangeToeOfFillet { get; set; }
+```
+```vb
+Public Property FlangeToeOfFillet As Double
+	Get
+	Set
+```
+```cpp
+public:
+property double FlangeToeOfFillet {
+	double get ();
+	void set (double value);
+}
+```
+```fsharp
+member FlangeToeOfFillet : float with get, set
+```
+
+
+#### Property Value
+
+Double
+
+#### Reference
+
+[StructuralSectionGeneralU Class](4e24ba22-f3d4-3bf8-49ca-5d401d0cfa88.md)
+
+[Autodesk.Revit.DB.Structure.StructuralSections Namespace](09862f38-63f6-a5f8-e560-ae775901bc92.md)

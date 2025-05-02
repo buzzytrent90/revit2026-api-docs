@@ -1,0 +1,39 @@
+﻿
+
+Revit 2026 API
+
+# InsulationTypeSetIteratorReset Method  
+  
+---  
+  
+Bring the iterator back to the start of the set.
+
+**Namespace:** [Autodesk.Revit.DB.Electrical](212a1314-7843-2c6c-3322-363127e4059f.md)**Assembly:** RevitAPI (in RevitAPI.dll) Version: 26.0.4.0 (26.0.4.0)
+
+```csharp
+public virtual void Reset()
+```
+```vb
+Public Overridable Sub Reset
+```
+```cpp
+public:
+virtual void Reset()
+```
+```fsharp
+abstract Reset : unit -> unit 
+override Reset : unit -> unit 
+```
+
+
+#### Implements
+
+IEnumeratorReset
+
+The Reset method will return the iterator back to the start of the set in line with the definition of IEnumerator. Note that you must call MoveNext before the first item can be accessed via the Current property.
+
+#### Reference
+
+[InsulationTypeSetIterator Class](174aa468-68cd-64f7-bd6d-39a98501633c.md)
+
+[Autodesk.Revit.DB.Electrical Namespace](212a1314-7843-2c6c-3322-363127e4059f.md)

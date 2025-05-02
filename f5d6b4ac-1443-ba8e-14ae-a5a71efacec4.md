@@ -1,0 +1,52 @@
+﻿
+
+Revit 2026 API
+
+# ParameterFilterRuleFactoryCreateHasValueParameterRule Method  
+  
+---  
+  
+Creates a filter rule that determines whether an element's parameter has a value. 
+
+**Namespace:** [Autodesk.Revit.DB](87546ba7-461b-c646-cbb1-2cb8f5bff8b2.md)**Assembly:** RevitAPI (in RevitAPI.dll) Version: 26.0.4.0 (26.0.4.0)
+
+```csharp
+public static FilterRule CreateHasValueParameterRule(
+	ElementId parameter
+)
+```
+```vb
+Public Shared Function CreateHasValueParameterRule ( 
+	parameter As ElementId
+) As FilterRule
+```
+```cpp
+public:
+static FilterRule^ CreateHasValueParameterRule(
+	ElementId^ parameter
+)
+```
+```fsharp
+static member CreateHasValueParameterRule : 
+        parameter : ElementId -> FilterRule 
+```
+
+
+#### Parameters
+
+parameter [ElementId](44f3f7b1-3229-3404-93c9-dc5e70337dd6.md)
+     The parameter to be evaluated by the filter. 
+
+#### Return Value
+
+[FilterRule](a8f202ca-3c88-ecc4-fa93-549b26a412d7.md)
+
+| Exception | Condition |
+| --- | --- |
+| [ArgumentNullException](631e1424-60f4-929b-4e52-dda9dcd26316.md) | A non-optional argument was null |
+  
+#### Reference
+
+[ParameterFilterRuleFactory Class](317755a4-24ba-9f36-7639-f6fb2aa5a1a7.md)
+
+[Autodesk.Revit.DB Namespace](87546ba7-461b-c646-cbb1-2cb8f5bff8b2.md)

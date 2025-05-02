@@ -1,0 +1,48 @@
+﻿
+
+Revit 2026 API
+
+# ExternallyTaggedGeometryValidationLacksSubnodes Method  
+  
+---  
+  
+Makes sure that the input geometry object does not have sub-nodes. 
+
+**Namespace:** [Autodesk.Revit.DB](87546ba7-461b-c646-cbb1-2cb8f5bff8b2.md)**Assembly:** RevitAPI (in RevitAPI.dll) Version: 26.0.4.0 (26.0.4.0)
+
+```csharp
+public static bool LacksSubnodes(
+	GeometryObject geometry
+)
+```
+```vb
+Public Shared Function LacksSubnodes ( 
+	geometry As GeometryObject
+) As Boolean
+```
+```cpp
+public:
+static bool LacksSubnodes(
+	GeometryObject^ geometry
+)
+```
+```fsharp
+static member LacksSubnodes : 
+        geometry : GeometryObject -> bool 
+```
+
+
+#### Parameters
+
+geometry [GeometryObject](e0f15010-0e19-6216-e2f0-ab7978145daa.md)
+     Geometry object to be validated. 
+
+#### Return Value
+
+Boolean True if the supplied geometry object does not have sub-nodes. 
+
+#### Reference
+
+[ExternallyTaggedGeometryValidation Class](3d89cbdb-0653-7820-5b94-e1fd8b6bf144.md)
+
+[Autodesk.Revit.DB Namespace](87546ba7-461b-c646-cbb1-2cb8f5bff8b2.md)

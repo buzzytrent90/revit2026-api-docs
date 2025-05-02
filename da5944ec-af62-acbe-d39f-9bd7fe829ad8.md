@@ -1,0 +1,50 @@
+﻿
+
+Revit 2026 API
+
+# DirectContext3DHandleSettings(DirectContext3DHandleSettings) Constructor  
+  
+---  
+  
+Constructs a copy of source object. 
+
+**Namespace:** [Autodesk.Revit.DB.DirectContext3D](f4ba10f0-55ea-5344-173b-688405391794.md)**Assembly:** RevitAPI (in RevitAPI.dll) Version: 26.0.4.0 (26.0.4.0)
+
+```csharp
+public DirectContext3DHandleSettings(
+	DirectContext3DHandleSettings other
+)
+```
+```vb
+Public Sub New ( 
+	other As DirectContext3DHandleSettings
+)
+```
+```cpp
+public:
+DirectContext3DHandleSettings(
+	DirectContext3DHandleSettings^ other
+)
+```
+```fsharp
+new : 
+        other : DirectContext3DHandleSettings -> DirectContext3DHandleSettings
+```
+
+
+#### Parameters
+
+other [DirectContext3DHandleSettings](cc9d7b07-a4d9-8570-9ed8-c953e241c0d6.md)
+     Source object. 
+
+| Exception | Condition |
+| --- | --- |
+| [ArgumentNullException](631e1424-60f4-929b-4e52-dda9dcd26316.md) | A non-optional argument was null |
+  
+#### Reference
+
+[DirectContext3DHandleSettings Class](cc9d7b07-a4d9-8570-9ed8-c953e241c0d6.md)
+
+[DirectContext3DHandleSettings Overload](872efff9-4d0f-69c5-c0f5-06a7544ff9e0.md)
+
+[Autodesk.Revit.DB.DirectContext3D Namespace](f4ba10f0-55ea-5344-173b-688405391794.md)

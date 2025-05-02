@@ -1,0 +1,53 @@
+﻿
+
+Revit 2026 API
+
+# FailuresAccessorIsElementsDeletionPermitted(IListElementId, String) Method  
+  
+---  
+**Namespace:** [Autodesk.Revit.DB](87546ba7-461b-c646-cbb1-2cb8f5bff8b2.md)**Assembly:** RevitAPI (in RevitAPI.dll) Version: 26.0.4.0 (26.0.4.0)
+
+```csharp
+public bool IsElementsDeletionPermitted(
+	IList<ElementId> idsToDelete,
+	out string reason
+)
+```
+```vb
+Public Function IsElementsDeletionPermitted ( 
+	idsToDelete As IList(Of ElementId),
+	<OutAttribute> ByRef reason As String
+) As Boolean
+```
+```cpp
+public:
+bool IsElementsDeletionPermitted(
+	IList<ElementId^>^ idsToDelete, 
+	[OutAttribute] String^% reason
+)
+```
+```fsharp
+member IsElementsDeletionPermitted : 
+        idsToDelete : IList<ElementId> * 
+        reason : string byref -> bool 
+```
+
+
+#### Parameters
+
+idsToDelete IList[ElementId](44f3f7b1-3229-3404-93c9-dc5e70337dd6.md)
+    
+reason String
+    
+
+#### Return Value
+
+Boolean
+
+#### Reference
+
+[FailuresAccessor Class](dea68b06-a061-fc05-d814-db741f2e7f14.md)
+
+[IsElementsDeletionPermitted Overload](be9a4660-d27f-f062-060e-347277e7f39a.md)
+
+[Autodesk.Revit.DB Namespace](87546ba7-461b-c646-cbb1-2cb8f5bff8b2.md)

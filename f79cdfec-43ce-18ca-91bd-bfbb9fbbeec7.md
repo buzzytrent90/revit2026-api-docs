@@ -1,0 +1,45 @@
+﻿
+
+Revit 2026 API
+
+# MEPNetworkSegmentIdElementId Property  
+  
+---  
+  
+The element id where this analytical segment belongs. 
+
+**Namespace:** [Autodesk.Revit.DB.Analysis](958e2e12-587d-f188-5d7b-f13d7dbfdf48.md)**Assembly:** RevitAPI (in RevitAPI.dll) Version: 26.0.4.0 (26.0.4.0)
+
+```csharp
+public ElementId ElementId { get; set; }
+```
+```vb
+Public Property ElementId As ElementId
+	Get
+	Set
+```
+```cpp
+public:
+property ElementId^ ElementId {
+	ElementId^ get ();
+	void set (ElementId^ value);
+}
+```
+```fsharp
+member ElementId : ElementId with get, set
+```
+
+
+#### Property Value
+
+[ElementId](44f3f7b1-3229-3404-93c9-dc5e70337dd6.md)
+
+| Exception | Condition |
+| --- | --- |
+| [ArgumentNullException](631e1424-60f4-929b-4e52-dda9dcd26316.md) | When setting this property: A non-optional argument was null |
+  
+#### Reference
+
+[MEPNetworkSegmentId Class](cb14904b-7147-4742-09c9-98da77011030.md)
+
+[Autodesk.Revit.DB.Analysis Namespace](958e2e12-587d-f188-5d7b-f13d7dbfdf48.md)
